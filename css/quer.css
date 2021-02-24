@@ -1,0 +1,437 @@
+
+/*-big tablet to 1200px -*/
+
+@media only screen and (max-width:1200px) {
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row {padding: 0 2%;}
+
+    .st ul li{ font-size: 95%;}
+    .st{ margin-left: 1%;}
+    .st .plan-price {
+        font-size: 280%;
+        margin-bottom: 10px;
+    }
+    .st h3{font-size: 100%; }
+    .st .btn:link,
+    .st .btn:visited,
+    input[type=submit] {
+        padding: 7px 23px;
+        border-radius: 200px;
+        font-size: 90%;
+    }
+    .form-box h2{font-size: 115%;}
+    .contact{width: 95%;}
+    .lab{font-size: 80%;}
+    .form-box{ width: 60%;}
+    section { padding: 40px 0;}
+    html {font-size: 17px;}
+    .section-testimonials{height: 500px;}
+    blockquote{ line-height: 2;}
+    .st ul li {padding: 4px 0;}
+    .map-box{height: 500px;}
+    .map {height: 500px;}
+    .form-box {
+    padding: 25px;
+    height: 500px;
+    }
+    .meal-photo img:hover {transform: scale(1.06);}
+}
+
+
+
+
+
+
+/*- small tablet to big tablet -*/
+@media only screen and (max-width:1023px) {
+    section{
+        padding:25px;
+    }
+    h2{
+        font-size: 140%;
+    }
+
+    .logo {width: 90px;}
+    .hero-text-box {font-size: 95%;}
+    .item {
+        flex: 50%;
+        padding: 10px 18px;
+    }
+    .item p { font-size: 100%;}
+
+    .section-features .long-copy{ 
+        width: 80%;
+        margin-bottom: 15px;
+        padding: 0;
+      
+    }
+    .section-features .row
+    {margin-top: 0;}
+
+    .sec img {
+        width: 60%;
+    }
+    .sec1{
+        margin-top: 0;
+        flex:40%;
+
+
+    }
+    .sec2 {
+ 
+        flex: 60%;
+    }
+    .work-space {
+        margin-bottom: 45px;
+    }
+    .work-space:last-of-type {
+        margin-bottom: 30px;
+    }
+
+    .btn-app img {
+        height: 50px !important;
+        width: 150px !important;
+        margin-right: 20px;
+    }
+
+    .sc {
+        padding: 5px 5px;
+
+    }
+
+    .sc img {
+        width: 90%;
+        height: 100px;
+        margin-bottom: 5px;
+    } 
+    
+    .city-feature{
+        margin-bottom: 3px;
+        font-size: 90%;
+    }
+    .small-ic{
+        margin-top: -3px;
+        margin-right: 0px;
+    
+    }
+
+    .sct{
+        flex: 30%;
+        
+    }
+    blockquote {
+        line-height: 1.7;
+    }
+
+
+    .st{
+        flex:30%;
+        margin: 0;
+    }
+
+       .st ul li{font-size: 90%;}
+
+    .st .plan-price {
+        font-size: 230%;
+        margin-bottom: 10px;
+       
+    }
+
+    .st .btn:link,
+    .st .btn:visited,
+    input[type=submit] {
+        padding: 5px 15px;
+    }
+
+
+    .contact{width: 100%;}
+
+    .lab{
+        flex:33%;
+     }
+          
+    .bal{
+        padding: 8px;
+        border-radius: 3px;
+        flex: 66.67;
+        border-radius: 2px solid #968787;
+ }
+
+     .map-box{
+         width: 100%;
+         height: 600px;
+         position: relative;
+     }
+     .map {
+         width: 100%;
+         height: 600px;
+         position: relative;
+         z-index: 0;
+     }
+     .form-box {
+     position: absolute;
+     top: 0;
+     right: 0;
+     background-color: rgba(206, 206, 206, 0.897);
+     z-index: 1;
+     padding: 40px;
+     height: 600px;
+     width: 65%;
+     }
+
+     .footer-nav li{ 
+         font-size: 80%;
+        margin-right: 5px;
+    }
+
+}
+ 
+
+
+
+/*- small phone to 768 -*/
+@media only screen and (max-width:768px) {
+html,body{
+    overflow-x: hidden;
+}
+
+section{
+    padding:15px;
+}
+h2{
+    font-size: 120%;
+}
+
+.logo {width: 70px;}
+.hero-text-box {font-size: 70%;}
+
+/*-section-features-*/
+.item {
+    padding: 5px 15px;
+    flex: 100%;
+
+}
+
+/*--*/
+.meal-photo img:hover {transform: scale(1.1);}
+/*--*/
+
+.sec {
+    padding: 5px 10px;
+    flex: 100%;
+}
+
+.sec1 {
+
+    padding: 0;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.sec2 {
+    padding: 0 ;
+    margin:5px 0 0 0;
+}
+
+.sec img  {
+    width: auto;
+    height: 300px !important;
+}
+
+.work-space {
+    margin-bottom: 15px;
+}
+
+.work-space:last-of-type {
+    margin-bottom: 15px;
+}
+.work-space div {
+    color: #e67e22;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #e67e22;
+    border-radius: 50%;
+
+    padding: 4px;
+    font-size: 100%;
+    margin-right: 15px;
+}
+
+.btn-app img {
+    height: 50px !important;
+    width: 150px !important;
+     margin:0 auto;
+}
+.btn-app img:first-of-type {
+  margin-left: 40px;
+}
+
+.sc {
+    padding: 10px 10px;
+    flex:100%;
+}
+.sc img {
+    width: 100%;
+    height: 280px;
+    margin-bottom: 20px;
+} 
+
+/*-section-testimonials-*/
+.sct{
+    padding: 5px 10px;
+    flex: 100%;
+}
+
+blockquote{
+    line-height: 1;
+    font-size: 14px;
+}
+blockquote:before{
+    font-size: 100%;
+    top: -10px;
+    left: -5px;
+    }
+    h2:after {margin-top: 10px;}
+
+       cite{
+        font-size: 70%;
+        margin-top: 10px;
+    }
+    
+    cite img{
+        width:30px;
+        margin-right: 10px;
+    }
+
+    .st {
+        flex: 100%;
+    }
+    .rowflex{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+
+
+    /*--*/
+
+     
+
+     
+     textarea{
+         height: 60px;
+     }
+     
+     .map-box{
+         width: 100%;
+         height: 600px;
+         position: relative;
+     }
+     .map {
+         width: 100% !important;
+         height: 170px;
+         position: relative;
+         z-index: 0;
+     }
+     .form-box {
+     position: absolute;
+     top: 170px;
+     right: 0;
+     background-color: rgba(206, 206, 206, 0.897);
+     z-index: 1;
+     padding: 40px;
+     height: 430px;
+     width: 100%;
+     }
+
+
+
+
+
+.footer-nav li,
+.social-links li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+
+
+footer p {
+
+    font-size: 65%;
+}
+
+footer div {
+    margin-bottom: 5px;
+}
+     
+
+.footer-nav li a{ font-size: 60%;}
+
+
+
+
+.social-links li a{
+ 
+}
+
+footer .row {
+    width: 100% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    .mobile-nav-icon { 
+        display: inline-block;
+
+    }
+    .main-nav {
+        float: left;
+        margin-top: 35px;
+        margin-left: 15px;
+        display: none;
+    }
+    .main-nav li {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        padding: 12px 0;
+        border: 0;
+        font-size: 100%;
+
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0;}
+
+    .sticky .main-nav {
+        margin-top:10px;
+    }
+
+    .logo-black {
+        float: left;
+    }
+    .sticky  .mobile-nav-icon i{
+        color: #555;
+    }
+
+    .sticky  .mobile-nav-icon{ 
+        margin-top: 10px;
+    }
+}
